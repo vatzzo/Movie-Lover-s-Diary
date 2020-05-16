@@ -1,0 +1,3 @@
+rootProject.name = 'ZTI_app'
+include 'libs'
+

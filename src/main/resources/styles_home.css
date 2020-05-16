@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+ fx-box-sizing: border-box;
+ fx-padding: 0;
+ fx-margin: 0;
+}
+.nav-bar {
+    -fx-pref-height: 100px;
+    -fx-background-color: #fcba03;
+    -fx-border-bottom: solid;
+    -fx-border-color: rgb(255,255,255);
+    -fx-border-width: 0 0 10px 0;
+}
+
+.nav-buttons {
+    -fx-pref-width: 350px;
+    -fx-pref-height: 50px;
+    -fx-font-size: 32px;
+    -fx-font-family: 'Questrial', sans-serif;
+    -fx-color: rgb(255,255,255);
+    -fx-cursor: hand;
+    -fx-text-fill: rgb(255,255,255);
+    -fx-background-color: transparent;
+    -fx-border: solid;
+    -fx-border-color: rgb(255,255,255);
+    -fx-border-width: 5px;
+    -fx-border-radius: 8px;
+}
+
+.nav-buttons:hover {
+    -fx-border-color: rgb(80,80,80);
+    -fx-text-fill: rgb(80,80,80);
+}
+
+.section-container {
+    -fx-background-color: #535353;
+    -fx-border: solid;
+    -fx-border-width: 0 10px 10px 10px;
+    -fx-border-color: white;
+}
+
+.labels {
+    -fx-font-family: 'Questrial', sans-serif;
+    -fx-text-fill: white;
+    -fx-font-size: 22px;
+}
+
+.textfields, .date {
+    -fx-max-width: 800px;
+    -fx-font-family: 'Questrial', sans-serif;
+    -fx-font-size: 16px;
+    -fx-pref-height: 50px;
+    -fx-border: solid;
+    -fx-border-width: 3px;
+    -fx-border-color: white;
+    -fx-cursor: hand;
+}
+
+.date:hover {
+    -fx-border-color: #fcba03;
+}
+
+.textfields:hover {
+    -fx-border-color: #fcba03;
+}
+
+.submit {
+    -fx-font-family: 'Questrial', sans-serif;
+    -fx-pref-width: 400px;
+    -fx-pref-height: 60px;
+    -fx-border-radius: 8px;
+    -fx-text-fill: white;
+    -fx-background-color: rgb(120,170,120);
+    -fx-border: solid;
+    -fx-border-width: 5px;
+    -fx-border-color: white;
+    -fx-cursor: hand;
+    -fx-font-size: 48px;
+}
+.submit:hover {
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+    -fx-scale-z: 1.03;
+}
+
+.errors {
+    -fx-prompt-text-fill: red;
+}
+
+.movie-list {
+    -fx-font-family: 'Questrial', sans-serif;
+    -fx-font-size: 12px;
+    -fx-pref-height: 650px;
+}
